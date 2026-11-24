@@ -1,0 +1,55 @@
+:root {
+  color-scheme: light;
+  --ink: #1c2430;
+  --muted: #5c6b7a;
+  --paper: #f4f7f5;
+  --card: #ffffff;
+  --line: #d5e0da;
+  --accent: #0f6e56;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  font-family: "Iowan Old Style", Palatino, Georgia, serif;
+  color: var(--ink);
+  background:
+    radial-gradient(circle at top left, #e7f3ee, transparent 42%),
+    var(--paper);
+}
+
+main {
+  max-width: 40rem;
+  margin: 12vh auto;
+  padding: 2.5rem;
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: 18px;
+}
+
+.eyebrow {
+  margin: 0 0 0.75rem;
+  font-family: "Avenir Next", "Segoe UI", sans-serif;
+  font-size: 0.78rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--accent);
+}
+
+h1 {
+  margin: 0 0 0.75rem;
+  font-size: 2.6rem;
+  line-height: 1.1;
+  font-weight: 600;
+}
+
+p {
+  margin: 0;
+  font-family: "Avenir Next", "Segoe UI", sans-serif;
+  line-height: 1.5;
+  color: var(--muted);
+}
